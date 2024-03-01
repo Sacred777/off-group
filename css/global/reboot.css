@@ -3,7 +3,11 @@ html {
 }
 
 :root {
-
+  --text-primary: #1f2324;
+  --text-secondary: #969696;
+  --btn-accent-light: #ffd230;
+  --btn-accent-dark: #1648a8;
+  --btn-active: #42516e;
 }
 
 *,
@@ -13,12 +17,12 @@ html {
 }
 
 body {
-  color: ;
+  color: var(--text-primary);
   font-family: ""Montserrat"", sans-serif;
-  font-weight: ;
-  font-size: ;
+  font-weight: 500;
+  font-size: 14;
   line-height: 1;
-  background-color: ;
+  background-color: #fff;
 }
 
 img {
