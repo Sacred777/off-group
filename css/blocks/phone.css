@@ -1,0 +1,7 @@
+.phone {
+  font-size: 16px;
+  padding-left: 29px;
+  background-image: url("../../img/phone.svg");
+  background-position: left;
+  background-repeat: no-repeat;
+}

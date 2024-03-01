@@ -1,0 +1,15 @@
+.breadcrumbs__list {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 4px;
+}
+
+.breadcrumbs__link {
+  font-size: 12px;
+  color: var(--text-secondary);
+}
+
+.breadcrumbs__item:not(:first-child) .breadcrumbs__link::before {
+  content: "/";
+  padding: 0 3px;
+}

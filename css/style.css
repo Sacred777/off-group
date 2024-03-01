@@ -2,4 +2,10 @@
 @import "global/reboot.css";
 @import "global/container.css";
 @import "blocks/header.css";
+@import "blocks/divider.css";
+@import "blocks/breadcrumbs.css";
 @import "blocks/footer.css";
+
+@import "blocks/messegers.css";
+@import "blocks/phone.css";
+@import "blocks/nav.css";
