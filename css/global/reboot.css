@@ -8,6 +8,7 @@ html {
   --btn-accent-light: #ffd230;
   --btn-accent-dark: #1648a8;
   --btn-active: #42516e;
+  --btn-inactive: #e5e5e5;
 }
 
 *,
