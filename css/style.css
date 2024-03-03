@@ -1,11 +1,24 @@
 @import "global/fonts.css";
 @import "global/reboot.css";
 @import "global/container.css";
+@import "global/indents-reset.css";
 @import "blocks/header.css";
-@import "blocks/divider.css";
-@import "blocks/breadcrumbs.css";
-@import "blocks/footer.css";
-
+@import "blocks/logo.css";
 @import "blocks/messegers.css";
 @import "blocks/phone.css";
 @import "blocks/nav.css";
+@import "blocks/divider.css";
+@import "blocks/breadcrumbs.css";
+@import "blocks/main.css";
+@import "blocks/product-block.css";
+@import "blocks/filters.css";
+@import "blocks/custom-checkbox.css";
+@import "blocks/product.css";
+@import "blocks/product-card.css";
+@import "blocks/product-labels.css";
+@import "blocks/data-list.css";
+@import "blocks/product-description.css";
+@import "blocks/tabs.css";
+
+
+@import "blocks/footer.css";
