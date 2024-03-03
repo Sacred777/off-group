@@ -93,7 +93,7 @@
         <nav class="nav header__nav">
           <ul class="nav__list indents-reset">
             <li class="nav__item">
-              <button class="nav__link">О компании</button>
+              <button class="nav__link btn">О компании</button>
             </li>
             <li class="nav__item">
               <a class="nav__link" href="#">Каталог</a>
@@ -124,7 +124,7 @@
 
   <div class="divider divider--ident"></div>
 
-  <div class="breadcrumbs">
+  <div class="breadcrumbs breadcrumbs--indent">
     <div class="container">
       <ul class="breadcrumbs__list indents-reset">
         <li class="breadcrumbs__item">
@@ -143,275 +143,280 @@
   <main class="main">
     <div class="product-block">
       <div class="container">
-        <div class="product-block__left">
-          <div class="filters">
-            <span class="filters__title idents-reset">Категория</span>
-            <ul class="filters__list indents-reset">
-              <li class="filters__item">
-                <label class="custom-checkbox">
-                  <input class="custom-checkbox__field" type="checkbox">
-                  <span class="custom-checkbox__text">Интерактивные ИБП</span>
-                </label>
-              </li>
-              <li class="filters__item">
-                <label class="custom-checkbox">
-                  <input class="custom-checkbox__field" type="checkbox">
-                  <span class="custom-checkbox__text">SMART и онлайн ИБП</span>
-                </label>
-              </li>
-              <li class="filters__item">
-                <label class="custom-checkbox">
-                  <input class="custom-checkbox__field" type="checkbox">
-                  <span class="custom-checkbox__text">Трехфазные системы</span>
-                </label>
-              </li>
-              <li class="filters__item">
-                <label class="custom-checkbox">
-                  <input class="custom-checkbox__field" type="checkbox">
-                  <span class="custom-checkbox__text">Распределители питания</span>
-                </label>
-              </li>
-              <li class="filters__item">
-                <label class="custom-checkbox">
-                  <input class="custom-checkbox__field" type="checkbox">
-                  <span class="custom-checkbox__text">Мониторинг и управление</span>
-                </label>
-              </li>
-              <li class="filters__item">
-                <label class="custom-checkbox">
-                  <input class="custom-checkbox__field" type="checkbox">
-                  <span class="custom-checkbox__text">ИБП для систем отопления</span>
-                </label>
-              </li>
-              <li class="filters__item">
-                <label class="custom-checkbox">
-                  <input class="custom-checkbox__field" type="checkbox">
-                  <span class="custom-checkbox__text">Сетевые фильтры</span>
-                </label>
-              </li>
-              <li class="filters__item">
-                <label class="custom-checkbox">
-                  <input class="custom-checkbox__field" type="checkbox">
-                  <span class="custom-checkbox__text">Стабилизатор напряжения</span>
-                </label>
-              </li>
-              <li class="filters__item">
-                <label class="custom-checkbox">
-                  <input class="custom-checkbox__field" type="checkbox">
-                  <span class="custom-checkbox__text">Батареи</span>
-                </label>
-              </li>
-              <li class="filters__item">
-                <label class="custom-checkbox">
-                  <input class="custom-checkbox__field" type="checkbox">
-                  <span class="custom-checkbox__text">Программное обеспечение</span>
-                </label>
-              </li>
-              <li class="filters__item">
-                <label class="custom-checkbox">
-                  <input class="custom-checkbox__field" type="checkbox">
-                  <span class="custom-checkbox__text">Технологии</span>
-                </label>
-              </li>
-            </ul>
+        <div class="product-block__wrapper">
+          <div class="product-block__left">
+            <div class="filters">
+              <span class="filters__title idents-reset">Категория</span>
+              <ul class="filters__list indents-reset">
+                <li class="filters__item">
+                  <label class="custom-checkbox">
+                    <input class="custom-checkbox__field" type="checkbox">
+                    <span class="custom-checkbox__text">Интерактивные ИБП</span>
+                  </label>
+                </li>
+                <li class="filters__item">
+                  <label class="custom-checkbox">
+                    <input class="custom-checkbox__field" type="checkbox">
+                    <span class="custom-checkbox__text">SMART и онлайн ИБП</span>
+                  </label>
+                </li>
+                <li class="filters__item">
+                  <label class="custom-checkbox">
+                    <input class="custom-checkbox__field" type="checkbox">
+                    <span class="custom-checkbox__text">Трехфазные системы</span>
+                  </label>
+                </li>
+                <li class="filters__item">
+                  <label class="custom-checkbox">
+                    <input class="custom-checkbox__field" type="checkbox">
+                    <span class="custom-checkbox__text">Распределители питания</span>
+                  </label>
+                </li>
+                <li class="filters__item">
+                  <label class="custom-checkbox">
+                    <input class="custom-checkbox__field" type="checkbox">
+                    <span class="custom-checkbox__text">Мониторинг и управление</span>
+                  </label>
+                </li>
+                <li class="filters__item">
+                  <label class="custom-checkbox">
+                    <input class="custom-checkbox__field" type="checkbox">
+                    <span class="custom-checkbox__text">ИБП для систем отопления</span>
+                  </label>
+                </li>
+                <li class="filters__item">
+                  <label class="custom-checkbox">
+                    <input class="custom-checkbox__field" type="checkbox">
+                    <span class="custom-checkbox__text">Сетевые фильтры</span>
+                  </label>
+                </li>
+                <li class="filters__item">
+                  <label class="custom-checkbox">
+                    <input class="custom-checkbox__field" type="checkbox">
+                    <span class="custom-checkbox__text">Стабилизатор напряжения</span>
+                  </label>
+                </li>
+                <li class="filters__item">
+                  <label class="custom-checkbox">
+                    <input class="custom-checkbox__field" type="checkbox">
+                    <span class="custom-checkbox__text">Батареи</span>
+                  </label>
+                </li>
+                <li class="filters__item">
+                  <label class="custom-checkbox">
+                    <input class="custom-checkbox__field" type="checkbox">
+                    <span class="custom-checkbox__text">Программное обеспечение</span>
+                  </label>
+                </li>
+                <li class="filters__item">
+                  <label class="custom-checkbox">
+                    <input class="custom-checkbox__field" type="checkbox">
+                    <span class="custom-checkbox__text">Технологии</span>
+                  </label>
+                </li>
+              </ul>
+            </div>
+            <div class="filters">
+              <span class="filters__title idents-reset">Производитель</span>
+              <ul class="filters__list indents-reset">
+                <li class="filters__item">
+                  <label class="custom-checkbox">
+                    <input class="custom-checkbox__field" type="checkbox">
+                    <span class="custom-checkbox__text">Мониторинг и управление</span>
+                  </label>
+                </li>
+                <li class="filters__item">
+                  <label class="custom-checkbox">
+                    <input class="custom-checkbox__field" type="checkbox">
+                    <span class="custom-checkbox__text">ИБП для систем отопления</span>
+                  </label>
+                </li>
+                <li class="filters__item">
+                  <label class="custom-checkbox">
+                    <input class="custom-checkbox__field" type="checkbox">
+                    <span class="custom-checkbox__text">Сетевые фильтры</span>
+                  </label>
+                </li>
+                <li class="filters__item">
+                  <label class="custom-checkbox">
+                    <input class="custom-checkbox__field" type="checkbox">
+                    <span class="custom-checkbox__text">Стабилизатор напряжения</span>
+                  </label>
+                </li>
+                <li class="filters__item">
+                  <label class="custom-checkbox">
+                    <input class="custom-checkbox__field" type="checkbox">
+                    <span class="custom-checkbox__text">Батареи</span>
+                  </label>
+                </li>
+              </ul>
+            </div>
           </div>
-          <div class="filters">
-            <span class="filters__title idents-reset">Производитель</span>
-            <ul class="filters__list indents-reset">
-              <li class="filters__item">
-                <label class="custom-checkbox">
-                  <input class="custom-checkbox__field" type="checkbox">
-                  <span class="custom-checkbox__text">Мониторинг и управление</span>
-                </label>
-              </li>
-              <li class="filters__item">
-                <label class="custom-checkbox">
-                  <input class="custom-checkbox__field" type="checkbox">
-                  <span class="custom-checkbox__text">ИБП для систем отопления</span>
-                </label>
-              </li>
-              <li class="filters__item">
-                <label class="custom-checkbox">
-                  <input class="custom-checkbox__field" type="checkbox">
-                  <span class="custom-checkbox__text">Сетевые фильтры</span>
-                </label>
-              </li>
-              <li class="filters__item">
-                <label class="custom-checkbox">
-                  <input class="custom-checkbox__field" type="checkbox">
-                  <span class="custom-checkbox__text">Стабилизатор напряжения</span>
-                </label>
-              </li>
-              <li class="filters__item">
-                <label class="custom-checkbox">
-                  <input class="custom-checkbox__field" type="checkbox">
-                  <span class="custom-checkbox__text">Батареи</span>
-                </label>
-              </li>
-            </ul>
-          </div>
-        </div>
 
-        <div class="product-block__right">
-          <div class="product">
-            <h1 class="product__title indents-reset">ИБП CyberPower BU600E</h1>
-            <div class="product-card">
-              <div class="product-card__banner">
-                <picture>
-                  <img class="product-card__img" src="./img/product/ibp_bu600e-big.png" height="324" width="385"
-                    alt="Внешний вид устройства">
-                </picture>
-                <ul class="product-card__img-list indents-reset">
-                  <li class="product-card__img-item">
-                    <button class="product-card__img-btn">
-                      <img class="product-card__img-view" src="./img/product/ibp_bu600e-small-1.png" height="33"
-                        width="33" alt="Вид устройства 1">
-                    </button>
-                  </li>
-                  <li class="product-card__img-item">
-                    <button class="product-card__img-btn">
-                      <img class="product-card__img-view" src="./img/product/ibp_bu600e-small-2.png" height="33"
-                        width="33" alt="Вид устройства 2">
-                    </button>
-                  </li>
-                  <li class="product-card__img-item">
-                    <button class="product-card__img-btn">
-                      <img class="product-card__img-view" src="./img/product/ibp_bu600e-small-3.png" height="33"
-                        width="33" alt="Вид устройства 3">
-                    </button>
-                  </li>
-                </ul>
-                <ul class="product-labels indents-reset">
-                  <li class="product-labels__item">
-                    <a class="product-label" href="#">Хит</a>
-                  </li>
-                  <li class="product-labels__item">
-                    <a class="product-label" href="#">Новинка</a>
-                  </li>
-                </ul>
+
+          <div class="product-block__right">
+            <div class="product">
+              <h1 class="product__title indents-reset">ИБП CyberPower BU600E</h1>
+              <div class="product-card">
+                <div class="product-card__banner">
+                  <ul class="product-labels product-card__labels indents-reset">
+                    <li class="product-labels__item">
+                      <a class="product-label product-label--accent-dark" href="#">Хит</a>
+                    </li>
+                    <li class="product-labels__item">
+                      <a class="product-label product-label--accent-light" href="#">Новинка</a>
+                    </li>
+                  </ul>
+                  <div class="product-card__img-wrapper">
+                    <picture>
+                      <img class="product-card__img" src="./img/product/ibp_bu600e-big.png" height="324" width="385"
+                        alt="Внешний вид устройства">
+                    </picture>
+                  </div>
+                  <ul class="product-card__img-list indents-reset">
+                    <li class="product-card__img-item">
+                      <button class="product-card__img-btn btn">
+                        <img class="product-card__img-view" src="./img/product/ibp_bu600e-small-1.png" height="33"
+                          width="33" alt="Вид устройства 1">
+                      </button>
+                    </li>
+                    <li class="product-card__img-item">
+                      <button class="product-card__img-btn btn">
+                        <img class="product-card__img-view" src="./img/product/ibp_bu600e-small-2.png" height="33"
+                          width="33" alt="Вид устройства 2">
+                      </button>
+                    </li>
+                    <li class="product-card__img-item">
+                      <button class="product-card__img-btn btn">
+                        <img class="product-card__img-view" src="./img/product/ibp_bu600e-small-3.png" height="33"
+                          width="33" alt="Вид устройства 3">
+                      </button>
+                    </li>
+                  </ul>
+                </div>
+                <div class="product-card__descr-box">
+                  <strong class="product-card__article">
+                    Артикул
+                    <span class="product-card__article-number">3434е3о</span>
+                  </strong>
+                  <dl class="data-list indents-reset">
+                    <div class="data-list__row">
+                      <dt class="data-list__title">Watts:</dt>
+                      <dd class="data-list__data">360</dd>
+                    </div>
+                    <div class="data-list__row">
+                      <dt class="data-list__title">Выходное напряжение ( В перем. )</dt>
+                      <dd class="data-list__data">230 ± 10%</dd>
+                    </div>
+                    <div class="data-list__row">
+                      <dt class="data-list__title">Время работы при 90Вт ( мин )</dt>
+                      <dd class="data-list__data">18</dd>
+                    </div>
+                    <div class="data-list__row">
+                      <dt class="data-list__title">Выходные разъемы</dt>
+                      <dd class="data-list__data">Schuko x 3</dd>
+                    </div>
+                  </dl>
+
+                  <div class="product-card__price">
+                    <strong class="product-card__current-price">23 000 р.</strong>
+                    <span class="product-card__discount-price">23 000 р.</span>
+                    <div class="product-card__quantity-box">
+                      <button class="product-card__quatity-decrease">-</button>
+                      <span class="product-card__quatity-value">1</span>
+                      <button class="product-card__quatity-increase">+</button>
+                    </div>
+                  </div>
+
+                  <div class="product-card__actions">
+                    <button class="btn btn--accent">В корзину</button>
+                    <button class="btn">Быстрый заказ</button>
+                  </div>
+                </div>
               </div>
-              <div class="product-card__descr-box">
-                <dl class="data-list indents-reset">
+              <div class="product-description">
+                <ul class="tabs indents-reset">
+                  <li class="tabs__item">
+                    <button class="btn btn--active">Характеристики</button>
+                  </li>
+                  <li>
+                    <button class="btn btn--inactive">Документация</button>
+                  </li>
+                </ul>
+                <div class="divider"></div>
+
+                <dl class="product-description__info indents-reset">
                   <div class="data-list__row">
-                    <dt class="data-list__title">Артикул:</dt>
-                    <dd class="data-list__data">3434е3о</dd>
+                    <dt class="data-list__title">Производитель</dt>
+                    <dd class="data-list__data">CyberPower</dd>
                   </div>
                   <div class="data-list__row">
-                    <dt class="data-list__title">Watts:</dt>
-                    <dd class="data-list__data">360</dd>
+                    <dt class="data-list__title">Страна производства</dt>
+                    <dd class="data-list__data">Тайвань</dd>
                   </div>
                   <div class="data-list__row">
-                    <dt class="data-list__title">Выходное напряжение ( В перем. )</dt>
-                    <dd class="data-list__data">230 ± 10%</dd>
+                    <dt class="data-list__title">Мощность выход</dt>
+                    <dd class="data-list__data">340 W</dd>
                   </div>
                   <div class="data-list__row">
-                    <dt class="data-list__title">Время работы при 90Вт ( мин )</dt>
-                    <dd class="data-list__data">18</dd>
+                    <dt class="data-list__title">Напряжение вход/выход</dt>
+                    <dd class="data-list__data">220 V</dd>
                   </div>
                   <div class="data-list__row">
-                    <dt class="data-list__title">Выходные разъемы</dt>
-                    <dd class="data-list__data">Schuko x 3</dd>
+                    <dt class="data-list__title">Количество фаз вход/выход</dt>
+                    <dd class="data-list__data">3</dd>
                   </div>
                 </dl>
 
-                <div class="product-card__price">
-                  <strong class="product-card__current-price">23 000 р.</strong>
-                  <span class="product-card__discount-price">23 000 р.</span>
-                  <div class="product-card__quantity-box">
-                    <button class="product-card__quatity-decrease">-</button>
-                    <span class="product-card__quatity-value">1</span>
-                    <button class="product-card__quatity-increase">+</button>
-                  </div>
-                </div>
-
-                <div class="product-card__actions">
-                  <button class="btn btn--accent">В корзину</button>
-                  <button class="btn">Быстрый заказ</button>
-                </div>
+                <ul class="product-description__docs indents-reset">
+                  <li class="product-description__item">
+                    <a class="product-description__link" href="#" download>
+                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="5" y="4" width="14" height="17" rx="2" fill="#7E869E" fill-opacity="0.25"
+                          stroke="#1F2324" stroke-width="1.2" />
+                        <path d="M9 9H15" stroke="#1F2324" stroke-width="1.2" stroke-linecap="round" />
+                        <path d="M9 13H15" stroke="#1F2324" stroke-width="1.2" stroke-linecap="round" />
+                        <path d="M9 17H13" stroke="#1F2324" stroke-width="1.2" stroke-linecap="round" />
+                      </svg>
+                      <span class="product-description__name">Документ.pdf</span>
+                    </a>
+                  </li>
+                  <li class="product-description__item">
+                    <a class="product-description__link" href="#" download>
+                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="5" y="4" width="14" height="17" rx="2" fill="#7E869E" fill-opacity="0.25"
+                          stroke="#1F2324" stroke-width="1.2" />
+                        <path d="M9 9H15" stroke="#1F2324" stroke-width="1.2" stroke-linecap="round" />
+                        <path d="M9 13H15" stroke="#1F2324" stroke-width="1.2" stroke-linecap="round" />
+                        <path d="M9 17H13" stroke="#1F2324" stroke-width="1.2" stroke-linecap="round" />
+                      </svg>
+                      <span class="product-description__name">Документ2.pdf</span>
+                    </a>
+                  </li>
+                </ul>
               </div>
-            </div>
-            <div class="product-description">
-              <ul class="tabs indents-reset">
-                <li class="tabs__item">
-                  <button class="btn btn--active">Характеристики</button>
-                </li>
-                <li>
-                  <button class="btn btn--inactive">Документация</button>
-                </li>
-              </ul>
-              <div class="divider"></div>
-
-              <dl class="product-description__info indents-reset">
-                <div class="data-list__row">
-                  <dt class="data-list__title">Производитель</dt>
-                  <dd class="data-list__data">CyberPower</dd>
-                </div>
-                <div class="data-list__row">
-                  <dt class="data-list__title">Страна производства</dt>
-                  <dd class="data-list__data">Тайвань</dd>
-                </div>
-                <div class="data-list__row">
-                  <dt class="data-list__title">Мощность выход</dt>
-                  <dd class="data-list__data">340 W</dd>
-                </div>
-                <div class="data-list__row">
-                  <dt class="data-list__title">Напряжение вход/выход</dt>
-                  <dd class="data-list__data">220 V</dd>
-                </div>
-                <div class="data-list__row">
-                  <dt class="data-list__title">Количество фаз вход/выход</dt>
-                  <dd class="data-list__data">3</dd>
-                </div>
-              </dl>
-
-              <ul class="product-description__docs indents-reset">
-                <li class="product-description__item">
-                  <a class="product-description__link" href="#" download>
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <rect x="5" y="4" width="14" height="17" rx="2" fill="#7E869E" fill-opacity="0.25"
-                        stroke="#1F2324" stroke-width="1.2" />
-                      <path d="M9 9H15" stroke="#1F2324" stroke-width="1.2" stroke-linecap="round" />
-                      <path d="M9 13H15" stroke="#1F2324" stroke-width="1.2" stroke-linecap="round" />
-                      <path d="M9 17H13" stroke="#1F2324" stroke-width="1.2" stroke-linecap="round" />
-                    </svg>
-                    <span class="product-description__name">Документ.pdf</span>
-                  </a>
-                </li>
-                <li class="product-description__item">
-                  <a class="product-description__link" href="#" download>
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <rect x="5" y="4" width="14" height="17" rx="2" fill="#7E869E" fill-opacity="0.25"
-                        stroke="#1F2324" stroke-width="1.2" />
-                      <path d="M9 9H15" stroke="#1F2324" stroke-width="1.2" stroke-linecap="round" />
-                      <path d="M9 13H15" stroke="#1F2324" stroke-width="1.2" stroke-linecap="round" />
-                      <path d="M9 17H13" stroke="#1F2324" stroke-width="1.2" stroke-linecap="round" />
-                    </svg>
-                    <span class="product-description__name">Документ2.pdf</span>
-                  </a>
-                </li>
-              </ul>
             </div>
           </div>
         </div>
       </div>
-    </div>
 
-    <div class="subscription">
-      <h2 class="subscription__title indents-reset">Полезная рассылка</h2>
-      <div class="container">
-        <form class="subscription__inner" method="post" action="#">
-          <label class="subscription__label">
-            Почта
-            <input type="email" class="subscription__email" name="email" placeholder="E-mail...">
-          </label>
-          <button type="submit" class="btn btn--accent">Отправить</button>
+      <div class="subscription">
+        <h2 class="subscription__title indents-reset">Полезная рассылка</h2>
+        <div class="container">
+          <form class="subscription__inner" method="post" action="#">
+            <label class="subscription__label">
+              Почта
+              <input type="email" class="subscription__email" name="email" placeholder="E-mail...">
+            </label>
+            <button type="submit" class="btn btn--accent">Отправить</button>
 
-          <label class="custom-checkbox">
-            <input class="custom-checkbox__field" type="checkbox" name="agreement">
-            <span class="custom-checkbox__text">Подтверждаю свое согласие на обработку своих персональных данных
-              в соответствии с Политикой конфиденциальности </span>
-          </label>
-        </form>
+            <label class="custom-checkbox">
+              <input class="custom-checkbox__field" type="checkbox" name="agreement">
+              <span class="custom-checkbox__text">Подтверждаю свое согласие на обработку своих персональных данных
+                в соответствии с Политикой конфиденциальности </span>
+            </label>
+          </form>
+        </div>
       </div>
     </div>
   </main>

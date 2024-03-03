@@ -13,3 +13,7 @@
   content: "/";
   padding: 0 3px;
 }
+
+.breadcrumbs--indent {
+  margin-bottom: 35px;
+}

@@ -1,0 +1,17 @@
+.product-block {
+  /* --gap: 30px; */
+  --width-left: 281px; /*23%   */
+}
+
+.product-block__wrapper {
+  display: flex;
+  gap: var(--gap);
+}
+
+.product-block__left {
+  width: var(--width-left);
+}
+
+.product-block__right {
+  width: calc(100% - var(--width-left) - var(--gap));
+}

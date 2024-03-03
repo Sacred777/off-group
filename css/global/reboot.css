@@ -1,20 +1,24 @@
 html {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 :root {
   --text-primary: #1f2324;
   --text-secondary: #969696;
-  --btn-accent-light: #ffd230;
-  --btn-accent-dark: #1648a8;
-  --btn-active: #42516e;
-  --btn-inactive: #e5e5e5;
+  --accent-light: #ffd230;
+  --accent-dark: #1648a8;
+  --active: #42516e;
+  --inactive: #e5e5e5;
+  --bg-contrast: #f3f3f3;
+  --color-white: #fff;
+
+  --gap: 33px;
 }
 
 *,
 *::before,
 *::after {
-	box-sizing: inherit;
+  box-sizing: inherit;
 }
 
 body {

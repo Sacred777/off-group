@@ -1,0 +1,10 @@
+.filters:not(:last-child) {
+  margin-bottom: 50px;
+}
+
+.filters__title {
+  display: inline-block;
+  margin-bottom: 19px;
+  font-weight: 600;
+  font-size: 18px;
+}
